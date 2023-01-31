@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="nl">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Bootstrap-CSS -->
+            <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+            crossorigin="anonymous">
+            <link rel="stylesheet" href="CSS/style.css">
+            <title>Contactpagina</title>
+        </head>
+        <body>
+            <div class="container-sm">
+                    <!-- Navigatiebalk -->
+                <header>
+                    <div class="row">
+                        <ul class="nav nav-tabs justify-content-center" id="navId" role="tablist">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link" >Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="overmij.html" class="nav-link" >Over mij</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link" >Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+                <main>
+                    <div class="row">
+                        <div class="col-sm">
+                            <h1>Contact</h1>
+                            <p class="vragen">Heeft u nog vragen, feedback of opmerkingen, dan hoor ik dat graag.
+                            U kunt contact met mij opnemen door het onderstaande contactformulier in te vullen.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form class="col-sm-12">
+                            <div class="row row-cols-2 mt-2">
+                                <div class="col">
+                                    <label for="firstname">Voornaam</label>
+                                    <input type="text" class="form-control" name="firstname" id="firstname" placeholder="bv. Elly" aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <label for="lastname">Achternaam</label>
+                                    <input type="text" class="form-control"  name="lastname" id="lastname" placeholder="bv. Gomes" aria-label="Last name">
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 mt-3">
+                                <div class="col-12">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="abc@mail.com">
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 mt-3">
+                                <div class="col-form-label-sm">
+                                    <label for="bericht" class="form-label">Uw bericht</label>
+                                    <textarea class="form-control" name="bericht" id="bericht" rows="6">
+                                    </textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-5">
+                                    <button type="submit" class="btn btn-primary">Verzend</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </main>
+                <footer>
+                    <div class="container-sm">
+                        <div class="row justify-content-center">
+                            Copyright E. Gomes 2023
+                        </div>
+                        <div class="row">
+                            <a href="#">Naar boven</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+                        <!-- Bootstrap JS -->
+            <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous">
+            </script>
+        </body>
+    </html>
+
